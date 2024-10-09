@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base/user-service-deployment.yaml
+  - ../../base/user-service-service.yaml
+  - ../../base/product-service-deployment.yaml
+  - ../../base/product-service-service.yaml
+  - ../../base/order-service-deployment.yaml
+  - ../../base/order-service-service.yaml

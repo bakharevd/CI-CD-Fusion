@@ -1,0 +1,6 @@
+.idea
+.venv
+venv
+*service/node_modules
+*service/package*.json
+.DS_Store
